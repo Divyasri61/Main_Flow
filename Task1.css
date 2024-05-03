@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Sedan;
+}
+header h1
+{
+    text-align: center;
+    background-color: rgb(3, 1, 49);
+    color: aliceblue;
+    padding: 25px 20px 13px 20px;
+    margin: 3px 2px 3px 2px;
+    height: 50px;
+    font-weight: bold;
+}
+a
+{
+  text-decoration: none;
+  color: aliceblue;
+}
+nav ul
+{
+    text-align: center;
+    background-color:rgb(9, 6, 96);
+    padding: 10px 20px 10px 20px;
+    margin: 3px 2px 3px 2px;
+}
+nav ul li
+{
+    display:inline;
+    margin-left: 50px;
+}
+div 
+{
+   float: left;
+   background-color:rgb(136, 200, 242);
+   width: 69.5%;
+   padding-bottom: 30px;
+   color:rgb(14, 14, 15);
+   margin: 0px 3px 0px 3px;
+   height: 500px;
+}
+div section
+{
+    margin: 3px 5px 3px 3px;
+    padding: 10px 5px 10px 5px;
+}
+
+aside 
+{
+   float: right;
+   background-color:rgb(136, 200, 242);
+   width: 29.5%;
+   padding-bottom: 30px;
+   color:rgb(14, 14, 15);
+   margin: 0px 3px 0px 3px;
+   height: 500px;
+}
+aside section
+{
+    margin: 3px 5px 3px 0px;
+    padding: 10px 5px 10px 5px;
+}
+h4
+{
+    text-align: center;
+}
+aside section ul 
+{
+    list-style-type: none;
+    font-weight:300;
+    margin: 20px 0px 20px 0px;
+}
+aside section ul li a
+{
+    color:rgb(14, 14, 15);
+}
+img
+{
+    margin-left: 100px;
+}
+footer
+{
+    text-align: center;
+    background-color:  rgb(3, 1, 49);
+    color: aliceblue;
+    margin: 540px 3px 0px 3px;
+    height: 30px;
+    padding: 1px 10px 12px 10px;
+}
