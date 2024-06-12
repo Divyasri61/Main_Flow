@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgb(102, 39, 203),rgb(115, 47, 158));
+  overflow: hidden;
+  user-select: none;
+}
+.calculator {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255,255,255,0.7);
+}
+
+.calculator-title 
+{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: #8f6ace;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black ;
+}
+
+.display {
+  margin-bottom: 20px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  user-select: none;
+}
+
+.display input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  font-size: 1.8em;
+  text-align: right;
+  font-family:'Times New Roman', Times, serif;
+  background-color: transparent;
+}
+
+.display span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-align: right;
+  color: #888;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.buttons button {
+  padding: 20px;
+  font-size: 1.2em;
+  font-family:'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  background-color: #eaeaea;
+  transform: translateY(-2px);
+}
+.buttons button.operator {
+  background-color: #8400ff;
+  color: white;
+}
+
+.buttons button.operator:hover {
+  background-color: #6204bb;
+}
+
+.buttons button.clear {
+  background-color: #e0172b;
+  color: white;
+}
+
+.buttons button.clear:hover {
+  background-color: #b31726;
+}
+
+.buttons button.equal {
+  background-color: #07b12f;
+  color: white;
+}
+
+.buttons button.equal:hover {
+  background-color: #21882b;
+}
+
