@@ -20,7 +20,7 @@ body, html {
 .calculator-title 
 {
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #8f6ace;
   margin-bottom: 20px;
   font-size: 24px;
@@ -43,7 +43,7 @@ body, html {
   border: none;
   font-size: 1.8em;
   text-align: right;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Courier New', Courier, monospace;
   background-color: transparent;
 }
 
@@ -53,7 +53,7 @@ body, html {
   font-size: 0.8em;
   text-align: right;
   color: #888;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .buttons {
@@ -65,7 +65,7 @@ body, html {
 .buttons button {
   padding: 20px;
   font-size: 1.2em;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Courier New', Courier, monospace;
   border: none;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.7);
